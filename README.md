@@ -58,19 +58,3 @@ module "metastore" {
 ```bash
 terraform import module.metastore.yandex_metastore_cluster.this <cluster-id>
 ```
-
-## Structure
-
-```text
-.
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── versions.tf
-├── README.md
-└── examples/
-    └── basic/
-        ├── main.tf
-        ├── variables.tf
-        └── outputs.tf
-```
